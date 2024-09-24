@@ -1,4 +1,5 @@
 import brainwave from "./brainwave.svg";
+import solarai from "./solarai.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import solaraiSymbol from "./solarai-symbol.svg";
@@ -78,6 +79,7 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
+  solarai,
   check,
   check2,
   loading1,
