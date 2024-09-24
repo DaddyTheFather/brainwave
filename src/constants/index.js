@@ -7,13 +7,10 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
-  facebook,
   figma,
   file02,
   framer,
   homeSmile,
-  instagram,
   notification2,
   notification3,
   notification4,
@@ -39,35 +36,28 @@ import {
 export const navigation = [
   {
     id: "0",
+    title: "Home",
+    url: "#",
+  },
+  {
+    id: "1",
     title: "Features",
     url: "#features",
   },
   {
-    id: "1",
+    id: "2",
     title: "Pricing",
-    url: "#pricing",
+    url: "#",
   },
   {
-    id: "2",
+    id: "3",
     title: "How to use",
     url: "#how-to-use",
   },
   {
-    id: "3",
+    id: "4",
     title: "Roadmap",
     url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
   },
 ];
 
@@ -297,32 +287,14 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
     title: "Twitter",
     iconUrl: twitter,
     url: "#",
   },
   {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
+    id: "1",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
     url: "#",
   },
 ];
