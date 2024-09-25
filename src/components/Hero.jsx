@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot } from "../assets";
+import { curve, heroBackground, energy } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -7,9 +7,6 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
-
-import { GoZap } from "react-icons/go";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -41,12 +38,8 @@ const Hero = () => {
             Unleash the power of AI within Solar AI. Sustainable Energy 
             Utilizing Advanced Solar 
           </p>
-          <Button href="/pricing" white className="mr-12 flex items-center">
-            Gitbook <GoZap className="mr-8" />
-          </Button>
-
           <Button href="/pricing" white className="flex items-center">
-            dApp Soon <GoZap className="mr-2" />
+            dApp Soon
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -56,7 +49,7 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  src={energy}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
@@ -78,7 +71,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Community"
                   />
                 </ScrollParallax>
               </div>
@@ -99,7 +92,6 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
 
       <BottomLine />

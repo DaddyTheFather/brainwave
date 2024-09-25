@@ -2,7 +2,6 @@ import {
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
-  benefitIcon4,
   benefitImage2,
   chromecast,
   disc02,
@@ -46,18 +45,13 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Pricing",
-    url: "#",
+    title: "Roadmap",
+    url: "#roadmap",
   },
   {
     id: "3",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "4",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Tokenomics",
+    url: "#tokenomics",
   },
 ];
 
@@ -68,9 +62,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "5/5 Tax",
+  "Buyback Equipment",
+  "Token Burn",
+
 ];
 
 export const brainwaveServicesIcons = [
@@ -84,34 +79,34 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Foundation Setup",
+    text: "Launch the Solar AI token through an ICO. Deploy the official website. Establish solar-powered mining facilities in the UAE.",
+    date: "Oct 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Initial Growth",
+    text: "Implement a revenue-sharing model. Form partnerships with renewable mining companies. Optimize mining operations for efficiency.",
+    date: "Dec 2025",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Expansion",
+    text: "Scale up mining capacity with additional solar infrastructure. Integrate advanced AI technologies. Launch staking and DeFi services.",
+    date: "Feb 2025",
+    status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Scaling",
+    text: "Expand operations to new global regions. Diversify energy sources with wind and hydro power. Develop proprietary mining and AI technologies. Achieve profitability and list the token on major exchanges.",
+    date: "Apr 2025",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -234,16 +229,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "AI Integration",
+    text: "Leverage advanced AI technologies to streamline processes and boost profitability.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Mining Containers",
+    text: "20-foot containers ensuring scalability and optimized performance for cryptocurrency mining powered by solar energy.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -251,37 +246,13 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Revenue Generation",
+    text: "Hosting services for individuals and companies to deploy mining equipment in solar-powered facilities.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+
 ];
 
 export const socials = [

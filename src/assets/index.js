@@ -23,6 +23,7 @@ import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 
+import energy from "./hero/energy.png";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
@@ -48,10 +49,10 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import roadmap1 from "./roadmap/roadmap-1.png";
+import roadmap2 from "./roadmap/roadmap-2.png";
+import roadmap3 from "./roadmap/roadmap-3.png";
+import roadmap4 from "./roadmap/roadmap-4.png";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -91,6 +92,7 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  energy,
   homeSmile,
   file02,
   searchMd,
